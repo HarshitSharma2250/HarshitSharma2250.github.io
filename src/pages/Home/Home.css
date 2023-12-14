@@ -1,0 +1,107 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+.introname_section{
+    padding-top: 7rem;
+    background-image: url('https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?size=626&ext=jpg&ga=GA1.1.1235191845.1698908479&semt=ais');
+background-repeat: no-repeat;
+background-size: cover;
+padding-bottom: 3rem;
+background-position: right top;
+}
+.introname_section>.introname_content{
+    color: #fff;
+    margin-right: 1rem;
+   padding-left: 5%;
+   font-family: Ubuntu, sans-serif;
+}
+.hiibox{
+    font-size:2rem;  
+}
+.myname{
+    font-size: 55px;
+    font-weight: 700;
+    margin: 25px 0% 0px 0%;
+}
+.doveloper{
+    font-size: 25px;
+color: rgb(40, 40, 255);
+}
+
+.introname_content img{
+    width: 30px;
+    height: 30px;
+ margin-left: 20px;
+}
+.resume_btn{
+    margin: 20px 0%;
+    font-size: 20px;
+   padding: 7px 15px;
+border: 1px solid blue;
+   background: linear-gradient(to right, transparent 50%, blue 50%);
+    transition: background 1s ease-out;
+    background-size: 200% 100%;
+}
+.resume_btn:hover{
+    background-position: 100%;
+}
+.resume_btn>a{
+    color: #fff;
+}
+
+.introname_content>.socialmedia_icons{
+    margin-top:3rem;
+width: 90px;
+font-size: 32px;
+display: flex;
+justify-content: space-between;
+}
+.introname_content>.socialmedia_icons>a>i{
+    color: blue;
+}
+.introname_content>.socialmedia_icons>a>i:hover{
+   color: #fff;
+}
+@media screen and (max-width:650px) {
+    .myname{
+        font-size: 43px;
+        transition: 1s ease-in-out;
+    }    
+}
+@media screen and (max-width:500px) {
+    .hiibox{
+        font-size:1.5rem;  
+        transition: 1s ease-in-out;
+    }
+    .introname_content img{
+        width: 25px;
+        height: 25px;
+     margin-left: 15px;
+    }
+    .myname{
+        font-size: 35px;
+    } 
+    .introname_content>.socialmedia_icons{
+        margin-top:1rem;
+        font-size: 25px;
+        width: 70px;
+    }
+
+}
+@media screen and (max-width:410px){
+    .myname{
+        font-size:27px;
+    } 
+    .hiibox{
+        font-size:1rem;  
+    }
+    .introname_content img{
+        width: 16px;
+        height: 16px;
+     margin-left: 8px;
+    }
+    .doveloper{
+        font-size: 20px;
+    }
+    .resume_btn{
+        font-size: 15px;
+    } 
+} 

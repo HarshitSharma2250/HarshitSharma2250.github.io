@@ -1,0 +1,47 @@
+
+.contact>.contactme{
+    width: 90%;
+    margin: auto;
+}
+.contact>.contactme>h1{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 7px;
+    border-bottom: 2px solid blue;
+    width: 200px;
+    font-size: 35px;
+    margin-bottom: 2rem;
+}
+
+.contact>.contactme>h2{
+    margin-bottom: 30px;
+   
+}
+.contact>.contactme>.contactlinks{
+margin-left: 10px;
+width: 18rem;
+margin-bottom: 20px;
+}
+.contact>.contactme>.contactlinks>p{
+    display: inline-block;
+}
+.contact>.contactme>.contactlinks>.mediaicon{
+    margin-right: 30px;
+}
+.footer{
+    margin-top: 5rem;
+    background-color: blue;
+    height: 4rem;
+    text-align: center;
+    padding-top: 1.5rem;
+    font-size: large;
+    color: #fff;
+}
+.footer>#footericon{
+    margin-left: 20px;
+}
+@media screen and (max-width:330px) {
+    .footer{
+        font-size: 16px;
+    }
+}
