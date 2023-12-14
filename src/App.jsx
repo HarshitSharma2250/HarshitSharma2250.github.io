@@ -37,7 +37,7 @@ function App() {
         <li><ScrollLink to="contact" smooth={true} duration={1000}>
               Contact
             </ScrollLink></li>
-            <li><a href="https://drive.google.com/file/d/1NN4wwVguAA8qCTucNINS0cP8b__7iQ5O/view?usp=drive_link" target='_blank' rel='harshit resume'>resume</a></li>
+            <li><a href="https://drive.google.com/file/d/1OuLz6TlMLLGPd6HsWABoDCGXSyLBznLS/view?usp=drive_link" target='_blank' rel='harshit resume'>resume</a></li>
       </ul>
     </nav>
 

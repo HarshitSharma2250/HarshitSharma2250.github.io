@@ -27,7 +27,7 @@ export const Home = () => {
       <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
         <i className="fab fa-linkedin"></i>
       </a>
-      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/HarshitSharma2250" target="_blank" rel="noopener noreferrer">
         <i className="fab fa-github"></i>
       </a>
     </div>
