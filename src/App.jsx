@@ -7,6 +7,7 @@ import {About} from './pages/About/About'
 import { Skills } from './pages/Skills/Skills';
 import { Project } from './pages/Projects/Project.jsx';
 import { Contact } from './pages/Contact/Contact.jsx';
+import { GithubStatus } from './pages/github_status/GithubStatus.jsx';
 
 function App() {
 
@@ -34,8 +35,8 @@ function App() {
         <li><ScrollLink to="project" smooth={true} duration={1000}>
               Project
             </ScrollLink></li>
-        <li><ScrollLink to="contact" smooth={true} duration={1000}>
-              Contact
+        <li><ScrollLink to="contact" smooth={true} duration={1200}>
+        contact
             </ScrollLink></li>
             <li><a href="https://drive.google.com/file/d/1OuLz6TlMLLGPd6HsWABoDCGXSyLBznLS/view?usp=drive_link" target='_blank' rel='harshit resume'>resume</a></li>
       </ul>
@@ -58,7 +59,13 @@ function App() {
 <div id="project">
   <Project/>
 </div>
+
+
+
 <div className="contact">
+<div id="githubstatus">
+  <GithubStatus/>
+</div>
   <Contact/>
 </div>
       </div>
