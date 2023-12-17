@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c9617954.css",
-    "main.js": "/static/js/main.28144f7f.js",
+    "main.css": "/static/css/main.8fa9f751.css",
+    "main.js": "/static/js/main.72b18fd6.js",
     "static/media/mahakalresume.png": "/static/media/mahakalresume.2ca737c833ba99c84065.png",
     "static/media/everestPage.png": "/static/media/everestPage.df88c8399e12b4623298.png",
     "static/media/mangalayatanPage.png": "/static/media/mangalayatanPage.df448b6ddea388b88301.png",
@@ -33,11 +33,11 @@
     "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/index.html",
-    "main.c9617954.css.map": "/static/css/main.c9617954.css.map",
-    "main.28144f7f.js.map": "/static/js/main.28144f7f.js.map"
+    "main.8fa9f751.css.map": "/static/css/main.8fa9f751.css.map",
+    "main.72b18fd6.js.map": "/static/js/main.72b18fd6.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9617954.css",
-    "static/js/main.28144f7f.js"
+    "static/css/main.8fa9f751.css",
+    "static/js/main.72b18fd6.js"
   ]
 }
