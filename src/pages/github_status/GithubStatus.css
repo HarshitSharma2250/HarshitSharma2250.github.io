@@ -1,0 +1,14 @@
+#Github{
+    background-color: black;
+    color: #fff;
+    padding: 1rem 5%;
+    height: 20rem;
+    margin-bottom: 1rem;
+}
+#Github>h1{
+font-size: 22px;
+}
+.github-images{
+    height:12rem;
+    width: 100%;
+}
