@@ -8,7 +8,8 @@ import './Project.css'
 import brindalReflection from '../../images/brindalReflection.png'
 import everestPage from '../../images/everestPage.png'
 import mangalayatanPage from '../../images/mangalayatanPage.png'
-import mahakalresume from '../../images/mahakalresume.png'
+import reliance from '../../images/reliance.png'
+
 
 
 
@@ -64,7 +65,7 @@ export const Project = () => {
 </div>
 <div className="productContect">
  <h3> Brindal Reflection</h3>
- <p> this website is a dummy clone of Bridal Reflections it is a bridal salon that has been helping brides find their dream wedding gown for over 50 years. </p>
+ <p> This project is a clone of Bridal Reflections, a renowned bridal salon that has been helping brides find their dream wedding gown for over 50 years. The website features a curated selection of exquisite wedding dresses. It replicates the elegance and exceptional service that Bridal Reflections is known for. </p>
  <p>Teach stack : HTML,CSS ,Javascript</p>
 </div>
 <div className="linkbuttons">
@@ -82,7 +83,7 @@ export const Project = () => {
 </div>
 <div className="productContect">
  <h3> Everest Spices</h3>
- <p> this website is a clone of Everest Spices,Everest is India's No. 1 spice brand that offers a wide range of whole spices and blends,Everest's great taste of purity is backed by research, innovation and technology. </p>
+ <p> This project is a clone of Everest Spices, India’s No. 1 spice brand. The website offers a comprehensive range of whole spices and blends, showcasing the great taste of purity that Everest is renowned for. It highlights the brand’s commitment to quality, backed by extensive research, innovation, and advanced technology. </p>
  <p>Teach stack : HTML,CSS ,Javascript , React</p>
 </div>
 <div className="linkbuttons">
@@ -100,12 +101,28 @@ export const Project = () => {
 </div>
 <div className="productContect">
  <h3> Mangalayatan university</h3>
- <p> this website is a  clone of Mangalayatan University, Mangalayatan University is the leader in education, aims to provide culture of hardwork & preparing everyone for fast progressing world</p>
+ <p> This project is a clone of Mangalayatan University, a leader in education. The website showcases the university's dedication to fostering a culture of hard work and preparing students for the fast-progressing world. It replicates the institution's commitment to academic excellence and innovative learning.</p>
  <p>Teach stack : HTML,CSS </p>
 </div>
 <div className="linkbuttons">
   <button className="livesite-getrepo"><a href="https://github.com/HarshitSharma2250/MangalayatanUniversity_clone/tree/main/mangalayatanUniversity" target="_blank" rel='mangalayan university github link'>Git Repo</a></button>
-  <button className="livesite-getrepo"><a href="https://656b0f5d9cf6c73157d9d33a--extraordinary-cheesecake-bd5ce3.netlify.app/" target="_blank" rel='mangalayan university livr demo link'>Live Site</a></button>
+  <button className="livesite-getrepo"><a href="https://656b0f5d9cf6c73157d9d33a--extraordinary-cheesecake-bd5ce3.netlify.app/" target="_blank" rel='mangalayan university live demo link'>Live Site</a></button>
+</div>
+       </div>
+        </SwiperSlide>
+        <SwiperSlide>    
+        <div className="projectsintro">
+<div className="imgaeproject">
+  <img className='allproductimg' src={reliance} alt="mangalayatan university" />
+</div>
+<div className="productContect">
+ <h3>Reliance Digital Ecommerce</h3>
+ <p> This project is a clone of Reliance Digital Ecommerce, operated by Reliance Retail, Ltd. The website offers a comprehensive range of consumer electronics, home appliances, computing and mobility products, latest gadgets, and accessories. It replicates the extensive product offerings and innovative shopping experience that Reliance Digital is known for.</p>
+ <p>Teach stack : HTML,CSS,js,react,redux,resful API </p>
+</div>
+<div className="linkbuttons">
+  <button className="livesite-getrepo"><a href="https://github.com/HarshitSharma2250/RelianceDigital" target="_blank" rel='Reliance Digital Ecommerce github link'>Git Repo</a></button>
+  <button className="livesite-getrepo"><a href="https://harshitsharma2250.github.io/RelianceDigital/" target="_blank" rel='Reliance Digital Ecommerce live demo link'>Live Site</a></button>
 </div>
        </div>
         </SwiperSlide>

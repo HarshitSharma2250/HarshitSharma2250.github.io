@@ -16,8 +16,14 @@ export const Home = () => {
 
       
       <p className="myname">Harshit kumar sharma</p>
-      <br />
-      <p className='doveloper'>front end doveloper</p>
+      <div className='wrapper'>
+        <p className='static-content'>I'm a</p>
+     <ul className='doveloper'>
+<li><span> Full Stack Doveloper </span></li>
+
+     </ul>
+      
+      </div>
       <button className='resume_btn'>
         <a download="HarshitSharma-resume.pdf" href={HarshitSharma_resume }
          >resume</a>

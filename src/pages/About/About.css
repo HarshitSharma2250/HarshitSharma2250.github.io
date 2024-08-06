@@ -13,10 +13,11 @@ border-bottom: 3px solid blue;
     flex-direction: row;
     width: 95%;
     margin: auto;
+    margin-bottom: 9rem;
 }
 .aboutme_page>.img>img{
-    width: 320px ;
-    height: 320px;
+    width: 350px ;
+    height: 350px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
@@ -24,6 +25,7 @@ border-bottom: 3px solid blue;
 .aboutme_page>.about_content{
     width: 50%;
     padding-top: 2rem;
+    font-size: 20px;
 }
 .aboutme_page>.about_content>h2{
     text-align: center;
@@ -60,5 +62,13 @@ border-bottom: 3px solid blue;
 @media screen and (max-width:500px){
     .aboutme_page>.about_content>p{
         line-height:1.5;
+        font-size: medium;
+        font-weight: 100;
+    }
+    .about>.aboutme_page{
+        margin-top: 0;
+    }
+    .aboutme_page>.about_content>h2{
+ font-size:25px;
     }
 }

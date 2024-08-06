@@ -8,7 +8,6 @@
 #skill>.myskills{
     margin: 7rem auto; 
     width: 90%;
-    border: 1px solid black;
     color: #fff;
 }
 
@@ -28,13 +27,14 @@ padding-bottom: 7px;
     flex-wrap: wrap;
 }
 #skill>.myskills>.serv-content>.card{
-    width: 35%;
-    height: 15rem;
+    width: 70%;
+    height: auto;
     cursor: pointer;
     background-color: rgb(47, 47, 47);
     box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
     border-radius: 7px;
     transition: .2s ease-in-out;
+    padding-bottom: 2rem;
 }
 
 #skill>.myskills>.serv-content>.card>.boxskill{
@@ -55,10 +55,20 @@ font-weight: 900;
     font-weight: 900;
     margin-bottom: 20px; 
 }
-.myskills>.serv-content>.card>.boxskill>p{
-font-size: 16px;
-margin: 10px 0%;
-font-weight: 500;
+.myskills>.serv-content .img-container{
+    display: flex;
+    gap: 30px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding: 0 2%;
+    justify-content: center;
+}
+.img-container .box{
+    margin-left: 20px;
+}
+.img-container .box img{
+    width:80px;
+    height: 30px;
 }
 
 #skill > .myskills > .serv-content > .card:hover {
@@ -74,7 +84,7 @@ font-weight: 500;
 
 @media screen and (max-width:950px){
     #skill>.myskills>.serv-content>.card{
-        width:340px;
+        width:100%;
        
     }  
 }
