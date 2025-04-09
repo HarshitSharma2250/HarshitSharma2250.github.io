@@ -42,16 +42,18 @@ color: #fff;
     margin-top: 10px;
     
 }
-.projectsintro>.imgaeproject>.allproductimg{
-    display: block;
-    max-width: 100%;
-    max-height: 30rem; 
-    width:100%;
-    height:10rem;
-    object-fit: cover;
-    border-top: 2px solid blue;
-    border-bottom: 2px solid blue;
-  }
+.projectsintro > .imgaeproject > .allproductimg {
+  display: block;
+  max-width: 100%;
+  max-height: 30rem; 
+  width: 100%;
+  height: 10rem;
+  object-fit: cover;
+  object-position: top;  /* Ensures the image is positioned from the top */
+  border-top: 2px solid blue;
+  border-bottom: 2px solid blue;
+}
+
   .projectsintro>.productContect{
       margin: auto;
     margin-top: 20px;

@@ -5,12 +5,11 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import {Autoplay, Pagination, Navigation } from 'swiper/modules';
 import './Project.css'
-import brindalReflection from '../../images/brindalReflection.png'
 import everestPage from '../../images/everestPage.png'
 import mangalayatanPage from '../../images/mangalayatanPage.png'
-import reliance from '../../images/reliance.png'
-
-
+import reliance from '../../images/reliance.png';
+import nufi from '../../images/nufiWallet.png'
+import ads_drop from '../../images/ads_drop.png'
 
 
 export const Project = () => {
@@ -58,22 +57,7 @@ export const Project = () => {
         modules={[Autoplay,Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>
-       <div className="projectsintro">
-<div className="imgaeproject">
-  <img className='allproductimg' src={brindalReflection} alt="" />
-</div>
-<div className="productContect">
- <h3> Brindal Reflection</h3>
- <p> This project is a clone of Bridal Reflections, a renowned bridal salon that has been helping brides find their dream wedding gown for over 50 years. The website features a curated selection of exquisite wedding dresses. It replicates the elegance and exceptional service that Bridal Reflections is known for. </p>
- <p>Teach stack : HTML,CSS ,Javascript</p>
-</div>
-<div className="linkbuttons">
-  <button className="livesite-getrepo"><a href="https://github.com/HarshitSharma2250/My-projects/tree/main/brindal%20reflection/brindal" target="_blank" rel="brindal reflection github link" >Git Repo</a></button>
-  <button className="livesite-getrepo"><a href="https://656997c94b57f57185282c90--gleeful-pastelito-a5508e.netlify.app/" target="_blank" rel="brindel reflection live demo link">Live Site</a></button>
-</div>
-       </div>
-        </SwiperSlide>
+
 
 
         <SwiperSlide>  
@@ -94,6 +78,10 @@ export const Project = () => {
        </div>
        </SwiperSlide>
 
+
+
+
+
         <SwiperSlide>    
         <div className="projectsintro">
 <div className="imgaeproject">
@@ -110,6 +98,10 @@ export const Project = () => {
 </div>
        </div>
         </SwiperSlide>
+
+
+
+
         <SwiperSlide>    
         <div className="projectsintro">
 <div className="imgaeproject">
@@ -117,7 +109,7 @@ export const Project = () => {
 </div>
 <div className="productContect">
  <h3>Reliance Digital Ecommerce</h3>
- <p> This project is a clone of Reliance Digital Ecommerce, operated by Reliance Retail, Ltd. The website offers a comprehensive range of consumer electronics, home appliances, computing and mobility products, latest gadgets, and accessories. It replicates the extensive product offerings and innovative shopping experience that Reliance Digital is known for.</p>
+ <p>           This project is a clone of Reliance Digital Ecommerce, operated by Reliance Retail, Ltd. The website offers a comprehensive range of consumer electronics, home appliances, computing and mobility products, latest gadgets, and accessories. It replicates the extensive product offerings and innovative shopping experience that Reliance Digital is known for.     </p>
  <p>Teach stack : HTML,CSS,js,react,redux,resful API </p>
 </div>
 <div className="linkbuttons">
@@ -126,6 +118,53 @@ export const Project = () => {
 </div>
        </div>
         </SwiperSlide>
+
+
+        <SwiperSlide>    
+        <div className="projectsintro">
+<div className="imgaeproject">
+  <img className='allproductimg' src={nufi} alt="mangalayatan university" style={{}}/>
+</div>
+<div className="productContect">
+  <h3>Nufi Wallet</h3>
+  <p>
+    Nufi Wallet is a secure and user-friendly digital wallet for managing cryptocurrency transactions. It allows users to store multiple digital assets, send and receive funds, scan QR codes for transactions, and track their transaction history. The project focuses on providing a seamless and intuitive experience .
+  </p>
+  <p>
+    Tech stack:React,Redux Toolkit,Tailwind,RESTful API,Axios,Axios Interceptors,Ether.js,Web3.js,QR
+  </p>
+</div>
+
+<div className="linkbuttons">
+  <button className="livesite-getrepo"><a href="https://wallet.nu.finance/auth/onboarding" target="_blank" rel='nufi wallet crypto wallet'>Live Site</a></button>
+</div>
+       </div>
+        </SwiperSlide>
+
+
+        <SwiperSlide>    
+        <div className="projectsintro">
+<div className="imgaeproject">
+  <img className='allproductimg' src={ads_drop} alt="ads_drop" style={{}}/>
+</div>
+<div className="productContect">
+  <h3>ADS_drop</h3>
+  <p>
+  Ads_Drop is a robust backend platform for managing digital ads and rewards. Built with Node.js, Express, and MongoDB, it efficiently handles ad placements, user tracking, and automated reward distribution with secure APIs, authentication, and performance optimization.
+  </p>
+  <p>
+  Tech Stack: Node.js, Express, MongoDB, Mongoose, Node-cron, Multer, Cloudinary, Undici, Logger, JWT.
+</p>
+</div>
+
+<div className="linkbuttons">
+  <button className="livesite-getrepo"><a href="https://adsdrop-backend.onrender.com/home" target="_blank" rel='ads_drop project'>Live Site</a></button>
+</div>
+       </div>
+        </SwiperSlide>
+
+
+
       </Swiper>
     </>
   )

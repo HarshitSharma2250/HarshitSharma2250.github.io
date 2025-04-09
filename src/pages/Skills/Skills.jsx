@@ -3,19 +3,33 @@ import './Skills.css'
 
 
 
-const imges=[
-  "https://camo.githubusercontent.com/aa5aec49ff1722aa42c4c858fa21f6f890325baf5cb9018c1c6d6ba43817f05b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f48544d4c2d6533346332363f7374796c653d666c6174266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465",
-  "https://camo.githubusercontent.com/8f85757df05ac91e4632d8f3c48eb88c7943681683f22284bd23d8cca5d279ca/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4353532d3536336437633f267374796c653d666c6174266c6f676f3d63737333266c6f676f436f6c6f723d7768697465",
-  "https://camo.githubusercontent.com/9ee7950b1b991249a724ed89fe231a9ebf7671b42f277efb1377656bbc125b58/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176615363726970742d3332333333303f7374796c653d666c6174266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d463744463145",
-  "https://camo.githubusercontent.com/0f16dfeeaeef040e8ebf06c6330752c38ea27ea1b682e627eae863cf465e7202/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a736f6e2d3545354335433f7374796c653d666f722d7468652d6261646765266c6f676f3d6a736f6e266c6f676f436f6c6f723d7768697465",
-  "https://camo.githubusercontent.com/22859a4cac94264f4697c9e3074df9970a9021c6c5444c46b6471dfc56a6b3cf/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52656163742d3631444146423f7374796c653d666c6174266c6f676f3d7265616374266c6f676f436f6c6f723d626c61636b",
-  "https://camo.githubusercontent.com/22859a4cac94264f4697c9e3074df9970a9021c6c5444c46b6471dfc56a6b3cf/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52656163742d3631444146423f7374796c653d666c6174266c6f676f3d7265616374266c6f676f436f6c6f723d626c61636b",
-  "https://camo.githubusercontent.com/e37c703e7ec615615719aedd023172979006d34dea74a2bcf5442a4b1395a13c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52656163745f526f757465722d4341343234353f7374796c653d666c6174266c6f676f3d72656163742d726f75746572266c6f676f436f6c6f723d7768697465",
-  "https://camo.githubusercontent.com/57732962169bb733f488f9f67f35b21a9cef06cdbdf15e73f793e34ed54eea15/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52656475782d3736344142433f7374796c653d666c6174266c6f676f3d7265647578266c6f676f436f6c6f723d7768697465",
-  "https://camo.githubusercontent.com/35fdce35ce3149b4e18f0efd0e57ba5447c4ca16f257b6a166af6d7af6e7b1ec/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f64652e6a732d3333393933333f7374796c653d666c6174266c6f676f3d6e6f64652e6a73266c6f676f436f6c6f723d7768697465",
-  "https://camo.githubusercontent.com/361679bb53a35128db2d7e33fa49f53a535ba5e445958488072e650e688ac43b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f507974686f6e2d3134333534433f7374796c653d666c6174266c6f676f3d707974686f6e266c6f676f436f6c6f723d7768697465",
-  "https://camo.githubusercontent.com/3a15a92b116b1afb31a0ccaab1eedc0b09251b6f0f5b149ba91d488ae6a47ad3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f766974652d2532333634364346462e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d76697465266c6f676f436f6c6f723d7768697465"
-]
+const techStack = [
+  { name: "HTML5", badge: "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" },
+  { name: "CSS3", badge: "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" },
+  { name: "JavaScript", badge: "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" },
+  { name: "React", badge: "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" },
+  { name: "Chakra UI", badge: "https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white" },
+  { name: "Tailwind CSS", badge: "https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" },
+  { name: "Redux", badge: "https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white" },
+  { name: "Vite", badge: "https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" },
+  { name: "Node.js", badge: "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" },
+  { name: "MongoDB", badge: "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" },
+  { name: "Express.js", badge: "https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" },
+  { name: "Postman", badge: "https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" },
+  { name: "Nodemon", badge: "https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD" },
+  { name: "Mongoose", badge: "https://img.shields.io/badge/Mongoose-%23880000.svg?&style=for-the-badge&logo=mongoose&logoColor=white" },
+  { name: "Chart.js", badge: "https://img.shields.io/badge/Chart.js-F5788D.svg?style=for-the-badge&logo=chartdotjs&logoColor=white" },
+  { name: "Python", badge: "https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" },
+  { name: "Render", badge: "https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white" },
+  { name: "JWT", badge: "https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens" },
+  { name: "Git", badge: "https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" },
+  { name: "GitHub", badge: "https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" },
+  { name: "Canva", badge: "https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white" },
+  { name: "NPM", badge: "https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white" },
+  { name: "Netlify", badge: "https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7" },
+  { name: "Vercel", badge: "https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" },
+];
+
 export const Skills = () => {
   return (
     <div className='myskills'>
@@ -26,12 +40,12 @@ export const Skills = () => {
         <div className="card">
           <div className="boxskill">
           <i className="fas fa-code"></i>
-          <div className='aboutskilltype'>Full-Stack</div>
+          <div className='aboutskilltype'>Mern-Stack</div>
           <div className="img-container">
           {
-            imges.map((ele,index)=>(
+            techStack.map((ele,index)=>(
               <div className="box" key={index}>
-                <img src={ele} alt="" />
+                <img src={ele.badge} alt={ele.name} title={ele.name} />
               </div>
             ))
           }

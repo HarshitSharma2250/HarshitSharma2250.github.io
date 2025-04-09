@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import 'typeface-ubuntu';
-import HarshitSharma_resume from "../../images/HarshitSharma_resume.pdf"
+import HarshitSharma_resume from "../../images/HarshitSharmaMernDoveloper.pdf"
 
 export const Home = () => {
   return (
@@ -19,13 +19,12 @@ export const Home = () => {
       <div className='wrapper'>
         <p className='static-content'>I'm a</p>
      <ul className='doveloper'>
-<li><span> Full Stack Doveloper </span></li>
-
+<li><span> Mern Stack Doveloper </span></li>
      </ul>
       
       </div>
       <button className='resume_btn'>
-        <a download="HarshitSharma-resume.pdf" href={HarshitSharma_resume }
+        <a download="HarshitSharmaMernDoveloper" href={HarshitSharma_resume }
          >resume</a>
       </button>
 

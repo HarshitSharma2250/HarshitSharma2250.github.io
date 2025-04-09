@@ -15,13 +15,17 @@ border-bottom: 3px solid blue;
     margin: auto;
     margin-bottom: 9rem;
 }
-.aboutme_page>.img>img{
-    width: 350px ;
+
+.aboutme_page > .img > img {
+    width: 350px;
     height: 350px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
+    object-fit: cover;
+    object-position: center 40%; /* Adjusts the vertical positioning */
 }
+
 .aboutme_page>.about_content{
     width: 50%;
     padding-top: 2rem;
